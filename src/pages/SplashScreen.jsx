@@ -16,7 +16,7 @@ const SplashScreen = () => {
       navigate("/home");
     }, 900);
   };
-
+console.log('haaai');
   useEffect(() => {
     const video = videoRef.current;
 
@@ -30,6 +30,7 @@ const SplashScreen = () => {
         console.log("Autoplay prevented:", err);
       }
     };
+
 
     playVideo();
 
