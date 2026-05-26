@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav
       className="
-        sticky top-0 z-50
+        fixed top-0 left-0 w-full z-50
         bg-black/70
         backdrop-blur-md
         border-b border-silver/10
@@ -46,17 +46,13 @@ export default function Navbar() {
               sm:text-xl
               md:text-2xl
               lg:text-4xl
-
               tracking-[0.04em]
               sm:tracking-[0.06em]
               md:tracking-[0.08em]
-
               font-normal
               whitespace-nowrap
-
               group-hover:text-accent
               group-hover:drop-shadow-[0_0_8px_#B11226]
-
               transition-all duration-300
               select-none
             "
@@ -88,21 +84,17 @@ export default function Navbar() {
             className="
               font-heading
               uppercase
-
               text-[9px]
               sm:text-[10px]
               md:text-xs
               lg:text-sm
-
               tracking-[0.12em]
               sm:tracking-[0.18em]
               md:tracking-[0.25em]
               lg:tracking-[0.3em]
-
               text-silver
               hover:text-accent
               hover:drop-shadow-[0_0_5px_#B11226]
-
               transition-all duration-300
               whitespace-nowrap
             "
@@ -115,21 +107,17 @@ export default function Navbar() {
             className="
               font-heading
               uppercase
-
               text-[9px]
               sm:text-[10px]
               md:text-xs
               lg:text-sm
-
               tracking-[0.12em]
               sm:tracking-[0.18em]
               md:tracking-[0.25em]
               lg:tracking-[0.3em]
-
               text-silver
               hover:text-accent
               hover:drop-shadow-[0_0_5px_#B11226]
-
               transition-all duration-300
               whitespace-nowrap
             "
