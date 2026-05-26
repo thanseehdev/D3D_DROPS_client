@@ -45,7 +45,7 @@ export default function ProductDetailPage() {
     setValidationError(false);
 
     const adminWhatsApp =
-      import.meta.env.VITE_ADMIN_WHATSAPP || '919895847167';
+      import.meta.env.VITE_ADMIN_WHATSAPP || '919895847161';
 
     const msg = `Hi! I'm interested in ordering from D3D DROPS.
 
